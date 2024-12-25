@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    
+    <link rel="icon" type="image/png" href="./YOTA-logo_with_name-removebg.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>YOTA</title>
+  </head>
+  <body>
+    <nav id="secondary-nav">
+      <img src="./YOTA-logo_with_name-removebg.png" alt="" />
+      <a href="./index.html"><h4>Intro</h4></a>
+      <a href="#"><h4>Workshops</h4></a>
+      <a href="./teams.html"><h4>Teams</h4></a>
+      <a href="#"><h4>Competitive Programming</h4></a>
+      <a href="#"><h4>Industrial Visits</h4></a>
+    </nav>
+
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <section id="workshops-section">
+      <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+          <div class="item">
+            <img src="./image/Kash-QT.jpg" />
+            <div class="content">
+              <div class="author">YOTA</div>
+              <div class="title">WORKSHOP</div>
+              <div class="topic">QT </div>
+              <div class="des">
+                The <strong>Qt Frameworks</strong> Workshop, organized by <strong>YOTA</strong> at <strong>Bahria University</strong>, introduced students to developing GUI-based applications using the <strong>Qt framework</strong>. The hands-on session covered setting up <strong>Qt Creator</strong>, creating intuitive user interfaces with <strong>C++</strong>, and real-world applications. Participants engaged in coding exercises and problem-solving, guided by experienced mentors. The workshop inspired students to explore GUI development and highlighted <strong> YOTA’s </strong>commitment to advancing technical skills and innovation among young developers.
+              </div>
+              <div class="buttons">
+                <button>APPLY NOW</button>
+                <button>20-Aug-2024</button>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./image/Workshop/SFML Workshop.png" />
+            <div class="content">
+              <div class="author">YOTA</div>
+              <div class="title">WORKSHOP</div>
+              <div class="topic">SFML</div>
+              <div class="des">
+                The <strong>SFML Frameworks</strong> Workshop, organized by <strong>YOTA</strong> at <strong>Bahria University</strong>, introduced students to developing multimedia-rich applications using the <strong>SFML (Simple and Fast Multimedia Library) framework</strong>. The hands-on session covered setting up <strong>SFML with C++</strong>, creating engaging 2D graphics, and building real-time interactive applications. Participants engaged in coding exercises and problem-solving activities, guided by experienced mentors. The workshop inspired students to explore multimedia application development and highlighted <strong>YOTA’s</strong> commitment to advancing technical skills and innovation among young developers.
+              </div>
+              <div class="buttons">
+                <button>APPLY NOW</button>
+                <button>20-Dec-2024</button>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./image/Workshop/CodeQuest.png" />
+            <div class="content">
+              <div class="author">YOTA</div>
+              <div class="title">WORKSHOP</div>
+              <div class="topic">Code Quest</div>
+              <div class="des">
+                The <strong>Code Quest Preparation Session</strong>, organized by <strong>YOTA</strong> at <strong>Bahria University</strong>, was an exclusive initiative designed to empower female students in competitive programming. This session focused on enhancing problem-solving skills, mastering algorithms, and understanding coding techniques essential for coding competitions. Guided by experienced mentors, participants tackled a series of hands-on challenges and real-world problems to boost their confidence and competence. The session highlighted <strong>YOTA’s</strong> commitment to creating an inclusive environment for women to excel in the world of competitive programming.
+              </div>
+              <div class="buttons">
+                <button>APPLY NOW</button>
+                <button>15-Dec-2024</button>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./image/Workshop/Teaching initiative.png" />
+            <div class="content">
+              <div class="author">YOTA</div>
+              <div class="title">WORKSHOP</div>
+              <div class="topic">Teaching Initiative</div>
+              <div class="des">
+                The <strong>Teaching Initiative Session</strong>, organized by <strong>YOTA</strong> at <strong>Bahria University Islamabad Campus (BUIC)</strong>, aimed to train university students in effectively teaching school-level students. This session focused on developing essential teaching techniques, communication skills, and creative methods to make learning engaging and impactful. Participants learned how to design interactive lesson plans, simplify complex concepts, and foster a supportive learning environment. Guided by experienced educators, students were equipped to inspire and mentor the next generation.
+              </div>
+              <div class="buttons">
+                <button>APPLY NOW</button>
+                <button>28-Dec-2024</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+          <div class="item">
+            <img src="./image/Workshop/QT Portrait.jpg" />
+            <div class="content">
+              <div class="title">QT Frameworks</div>
+              <div class="description">Workshop</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./image/Workshop/SFML portrait.jpg" />
+            <div class="content">
+              <div class="title">SFML</div>
+              <div class="description">Workshop</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./image/Workshop/CodeQuest Portrait.jpg" />
+            <div class="content">
+              <div class="title">Code Quest</div>
+              <div class="description">Preparation Sessions</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./image/Workshop/Teaching Portrait.jpg" />
+            <div class="content">
+              <div class="title">Teaching Initiative</div>
+              <div class="description">Workshop</div>
+            </div>
+          </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+          <button id="prev"><</button>
+          <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+      </div>
+    </section>
+
+    <div id="footer">
+      <img
+        src="./—Pngtree—abstract halftone dots background design_5777017.png"
+        alt=""
+      />
+      <div id="f1">
+        <img src="./YOTA-logo_with_name-removebg.png" alt="" />
+      </div>
+      <div id="f2">
+        <h3>Competitive Programming</h3>
+        <h3>Open Source Contributions</h3>
+        <h3>Marketing</h3>
+        <h3>Technical Workshops</h3>
+        <h3>Industrial Visits</h3>
+      </div>
+      <div id="f3">
+        <h3>
+          <a
+            href="https://www.linkedin.com/company/yota-pk/mycompany/"
+            target="_blank"
+            style="text-decoration: none"
+          >
+            <i class="ri-linkedin-box-fill"></i> yota-pk
+          </a>
+        </h3>
+
+        <h3>
+          <a
+            href="https://www.instagram.com/yota.pk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            style="text-decoration: none"
+          >
+            <i class="ri-instagram-fill"></i> Instagram
+          </a>
+        </h3>
+
+        <h3>
+          <a
+            href="https://tr.ee/U0yDryj0mR"
+            target="_blank"
+            style="text-decoration: none"
+          >
+            <i class="ri-discord-fill"></i> Discord
+          </a>
+        </h3>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="./app-workshop.js"></script>
+  </body>
+</html>

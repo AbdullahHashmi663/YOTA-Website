@@ -1,0 +1,339 @@
+
+body {
+    background: #000;
+    background-image: 
+      radial-gradient(4px 100px at 0px 235px, #0fa0a0, #0000),
+      radial-gradient(4px 100px at 300px 235px, #0fa0a0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 117.5px, #10ecb99c 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 252px, #10ecb99c, #0000),
+      radial-gradient(4px 100px at 300px 252px, #10ecb99c, #0000),
+      radial-gradient(1.5px 1.5px at 150px 126px, #14ab885a 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 150px, #14ab885a, #0000),
+      radial-gradient(4px 100px at 300px 150px, #14ab885a, #0000),
+      radial-gradient(1.5px 1.5px at 150px 75px, #0fa0a0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 253px, #0fa0a0, #0000),
+      radial-gradient(4px 100px at 300px 253px, #0fa0a0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 126.5px, #10ecb99c 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 204px, #10ecb99c, #0000),
+      radial-gradient(4px 100px at 300px 204px, #10ecb99c, #0000),
+      radial-gradient(1.5px 1.5px at 150px 102px, #14ab885a 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 134px, #14ab885a, #0000),
+      radial-gradient(4px 100px at 300px 134px, #14ab885a, #0000),
+      radial-gradient(1.5px 1.5px at 150px 67px, #0fa0a0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 179px, #0fa0a0, #0000),
+      radial-gradient(4px 100px at 300px 179px, #0fa0a0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 89.5px, #10ecb99c 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 299px, #10ecb99c, #0000),
+      radial-gradient(4px 100px at 300px 299px, #10ecb99c, #0000),
+      radial-gradient(1.5px 1.5px at 150px 149.5px, #14ab885a 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 215px, #14ab885a, #0000),
+      radial-gradient(4px 100px at 300px 215px, #14ab885a, #0000),
+      radial-gradient(1.5px 1.5px at 150px 107.5px, #0fa0a0 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 281px, #0fa0a0, #0000),
+      radial-gradient(4px 100px at 300px 281px, #0fa0a0, #0000),
+      radial-gradient(1.5px 1.5px at 150px 140.5px, #10ecb99c 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 158px, #10ecb99c, #0000),
+      radial-gradient(4px 100px at 300px 158px, #10ecb99c, #0000),
+      radial-gradient(1.5px 1.5px at 150px 79px, #14ab885a 100%, #0000 150%),
+      radial-gradient(4px 100px at 0px 210px, #14ab885a, #0000),
+      radial-gradient(4px 100px at 300px 210px, #14ab885a, #0000),
+      radial-gradient(1.5px 1.5px at 150px 105px, #0fa0a0 100%, #0000 150%);
+    background-size:
+      300px 235px,
+      300px 235px,
+      300px 235px,
+      300px 252px,
+      300px 252px,
+      300px 252px,
+      300px 150px,
+      300px 150px,
+      300px 150px,
+      300px 253px,
+      300px 253px,
+      300px 253px,
+      300px 204px,
+      300px 204px,
+      300px 204px,
+      300px 134px,
+      300px 134px,
+      300px 134px,
+      300px 179px,
+      300px 179px,
+      300px 179px,
+      300px 299px,
+      300px 299px,
+      300px 299px,
+      300px 215px,
+      300px 215px,
+      300px 215px,
+      300px 281px,
+      300px 281px,
+      300px 281px,
+      300px 158px,
+      300px 158px,
+      300px 158px,
+      300px 210px,
+      300px 210px,
+      300px 210px;
+    animation: hi 150s linear infinite;
+  }
+  
+  @keyframes hi {
+    0% {
+      background-position:
+        0px 220px,
+        3px 220px,
+        151.5px 337.5px,
+        25px 24px,
+        28px 24px,
+        176.5px 150px,
+        50px 16px,
+        53px 16px,
+        201.5px 91px,
+        75px 224px,
+        78px 224px,
+        226.5px 350.5px,
+        100px 19px,
+        103px 19px,
+        251.5px 121px,
+        125px 120px,
+        128px 120px,
+        276.5px 187px,
+        150px 31px,
+        153px 31px,
+        301.5px 120.5px,
+        175px 235px,
+        178px 235px,
+        326.5px 384.5px,
+        200px 121px,
+        203px 121px,
+        351.5px 228.5px,
+        225px 224px,
+        228px 224px,
+        376.5px 364.5px,
+        250px 26px,
+        253px 26px,
+        401.5px 105px,
+        275px 75px,
+        278px 75px,
+        426.5px 180px;
+    }
+    to {
+      background-position:
+        0px 6800px,
+        3px 6800px,
+        151.5px 6917.5px,
+        25px 13632px,
+        28px 13632px,
+        176.5px 13758px,
+        50px 5416px,
+        53px 5416px,
+        201.5px 5491px,
+        75px 17175px,
+        78px 17175px,
+        226.5px 17301.5px,
+        100px 5119px,
+        103px 5119px,
+        251.5px 5221px,
+        125px 8428px,
+        128px 8428px,
+        276.5px 8495px,
+        150px 9876px,
+        153px 9876px,
+        301.5px 9965.5px,
+        175px 13391px,
+        178px 13391px,
+        326.5px 13540.5px,
+        200px 14741px,
+        203px 14741px,
+        351.5px 14758px,
+        225px 17309px,
+        228px 17309px,
+        376.5px 18809.5px,
+        250px 18000px,
+        253px 18000px,
+        401.5px 18029px,
+        275px 13400px,
+        278px 13400px,
+        426.5px 13759px;
+    }
+  }
+    
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+  
+}
+body{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container {
+    background: linear-gradient(135deg, rgba(125, 125, 235, 0.2), rgba(125, 125, 235, 0.1));
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(5, 194, 162, 0.9);
+}
+
+form {
+    margin: 0 2rem;
+}
+
+.form-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 0.4rem;
+    color: rgb(4, 232, 186); /* Keeping consistency in title color */
+}
+
+input {
+    /* color: inherit; */
+    color:rgb(21, 215, 189); 
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #00ccb8;
+    padding-left: 1.5rem;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-group {
+    padding: 1% 0;
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    color: rgb(21, 215, 189); /* Adjusted icon color for better visibility */
+}
+
+input:focus {
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid rgb(4, 232, 186); /* Border color adjusted */
+    color: rgb(255, 255, 255);
+  
+}
+
+input::placeholder {
+    color: transparent;
+}
+
+label {
+    color: rgb(4, 232, 186);
+    position: relative;
+    left: 1.2em;
+    top: -1.3em;
+    cursor: auto;
+    transition: 0.3s ease all;
+}
+
+input:focus~label, input:not(:placeholder-shown)~label {
+    top: -3em;
+    color: rgb(255, 255, 255); /* Consistency in label color */
+    font-size: 15px;
+}
+
+/* .recover {
+    text-align: right;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recover a {
+    text-decoration: none;
+    color: rgb(4, 232, 186);
+}
+
+.recover a:hover {
+    color: #3b57e6;
+    text-decoration: underline;
+} */
+p{
+    color: rgb(4, 232, 186);
+}
+.btn {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: rgb(4, 232, 186); /* Enhanced button background */
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: rgb(5, 255, 205);
+    transform: scale(1.05);
+    box-shadow:0px 4px 8px #00ccb8;
+     /* Button scale effect for hover */
+}
+
+.or {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: rgb(4, 232, 186);
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    color: rgb(4, 232, 186);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+    margin: 0 15px;
+    transition: 0.3s ease;
+}
+
+.icons i:hover {
+    background: rgb(4, 232, 186);
+    font-size: 1.6rem;
+    border: 2px solid rgb(4, 232, 186);
+}
+#signInButton{
+    color:white;
+}
+#signUpButton{
+    color:white;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 0.9rem;
+    font-weight: bold;
+    /* color: #ffffff; */
+}
+
+button {
+    color:rgb(4, 232, 186);
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    text-decoration: underline;
+    color: rgb(4, 232, 186);
+}
